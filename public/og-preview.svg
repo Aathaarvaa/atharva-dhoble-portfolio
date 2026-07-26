@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Atharva Dhoble portfolio social preview">
+  <defs>
+    <linearGradient id="bg" x1="75" y1="30" x2="1120" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071018"/>
+      <stop offset="1" stop-color="#0C1321"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="98" y1="112" x2="1018" y2="525" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37E6FF"/>
+      <stop offset=".52" stop-color="#7B7CFF"/>
+      <stop offset="1" stop-color="#82F7B9"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#C7EAF5" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="950" cy="105" r="180" fill="#37E6FF" opacity=".08" filter="url(#glow)"/>
+  <circle cx="1110" cy="540" r="220" fill="#7B7CFF" opacity=".10" filter="url(#glow)"/>
+  <rect x="58" y="54" width="1084" height="522" rx="28" fill="#0B1420" fill-opacity=".82" stroke="#273A50"/>
+  <rect x="88" y="86" width="76" height="76" rx="20" fill="#071018" stroke="url(#accent)" stroke-width="2"/>
+  <text x="126" y="137" fill="url(#accent)" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">AD</text>
+  <text x="193" y="118" fill="#9EB2C7" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">DATA ENGINEER · DATA ANALYST</text>
+  <text x="88" y="263" fill="#F2F8FC" font-family="Arial, sans-serif" font-size="67" font-weight="700">Atharva Dhoble</text>
+  <text x="88" y="325" fill="#AAB9C9" font-family="Arial, sans-serif" font-size="28">Building trusted data systems - from ingestion and</text>
+  <text x="88" y="365" fill="#AAB9C9" font-family="Arial, sans-serif" font-size="28">validation to analytics and insight.</text>
+  <g transform="translate(88 438)">
+    <rect width="164" height="48" rx="24" fill="#102333" stroke="#2F5068"/>
+    <text x="82" y="31" text-anchor="middle" fill="#63DDF6" font-family="Arial, sans-serif" font-size="16" font-weight="700">Azure Platforms</text>
+    <rect x="180" width="144" height="48" rx="24" fill="#171C35" stroke="#434673"/>
+    <text x="252" y="31" text-anchor="middle" fill="#AFA1FF" font-family="Arial, sans-serif" font-size="16" font-weight="700">ETL / ELT</text>
+    <rect x="340" width="176" height="48" rx="24" fill="#102B27" stroke="#2E5C51"/>
+    <text x="428" y="31" text-anchor="middle" fill="#79EDC9" font-family="Arial, sans-serif" font-size="16" font-weight="700">Data Quality</text>
+    <rect x="532" width="150" height="48" rx="24" fill="#1C2C18" stroke="#476039"/>
+    <text x="607" y="31" text-anchor="middle" fill="#B8F45D" font-family="Arial, sans-serif" font-size="16" font-weight="700">Power BI</text>
+  </g>
+  <g transform="translate(820 224)">
+    <path d="M0 120H205" stroke="#365166" stroke-width="2" stroke-dasharray="5 8"/>
+    <circle cx="0" cy="120" r="10" fill="#37E6FF"/>
+    <circle cx="68" cy="120" r="10" fill="#82F7B9"/>
+    <circle cx="137" cy="120" r="10" fill="#7B7CFF"/>
+    <circle cx="205" cy="120" r="10" fill="#B8F45D"/>
+    <text x="0" y="86" fill="#92A8BD" font-family="monospace" font-size="14" text-anchor="middle">INGEST</text>
+    <text x="68" y="159" fill="#92A8BD" font-family="monospace" font-size="14" text-anchor="middle">MODEL</text>
+    <text x="137" y="86" fill="#92A8BD" font-family="monospace" font-size="14" text-anchor="middle">VALIDATE</text>
+    <text x="205" y="159" fill="#92A8BD" font-family="monospace" font-size="14" text-anchor="middle">INSIGHT</text>
+  </g>
+  <rect x="58" y="570" width="1084" height="6" rx="3" fill="url(#accent)"/>
+</svg>

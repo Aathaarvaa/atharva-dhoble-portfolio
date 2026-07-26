@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AD monogram">
+  <defs>
+    <linearGradient id="g" x1="6" y1="5" x2="58" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37E6FF"/>
+      <stop offset="0.52" stop-color="#7B7CFF"/>
+      <stop offset="1" stop-color="#82F7B9"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#071018"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <path d="M14 45 27.2 17h5.6L46 45h-7.1l-2.3-5.4H23.3L21 45h-7Zm11.6-11.2h8.8L30 23.3l-4.4 10.5Z" fill="url(#g)"/>
+  <path d="M44.5 17H51v28h-6.5z" fill="#D9F8FF" opacity=".9"/>
+</svg>

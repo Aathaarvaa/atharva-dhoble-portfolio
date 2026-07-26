@@ -1,0 +1,17 @@
+{
+  "name": "Atharva Dhoble Portfolio",
+  "short_name": "Atharva Dhoble",
+  "description": "Data Engineer and Data Analyst portfolio.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#071018",
+  "theme_color": "#071018",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
