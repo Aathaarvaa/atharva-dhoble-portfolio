@@ -2740,11 +2740,21 @@ h4 {
   }
 }
 
-@keyframes pipeline-signal,
+@keyframes pipeline-signal {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: calc(100% - 6px);
+  }
+}
+
 @keyframes architecture-signal {
   from {
     left: 0;
   }
+
   to {
     left: calc(100% - 6px);
   }
