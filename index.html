@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Atharva Dhoble, a Data Engineer and Data Analyst building reliable Azure data platforms, ETL/ELT pipelines, data quality frameworks, reconciliation systems, and Power BI analytics."
+    />
+    <meta
+      name="keywords"
+      content="Atharva Dhoble, Data Engineer, Data Analyst, Analytics Engineer, Azure Data Engineer, Power BI Developer, Azure Data Factory, Azure Synapse, Microsoft Fabric, Data Quality"
+    />
+    <meta name="author" content="Atharva Dhoble" />
+    <meta name="theme-color" content="#071018" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Atharva Dhoble | Data Engineer & Data Analyst" />
+    <meta
+      property="og:description"
+      content="Building trusted data systems - from ingestion and validation to analytics and insight."
+    />
+    <meta property="og:image" content="./og-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Atharva Dhoble data engineering portfolio preview" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Atharva Dhoble | Data Engineer & Data Analyst" />
+    <meta
+      name="twitter:description"
+      content="Azure data platforms, production data quality, ETL/ELT, and business analytics."
+    />
+    <meta name="twitter:image" content="./og-preview.png" />
+
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <script>
+      (() => {
+        const savedTheme = localStorage.getItem('portfolio-theme');
+        const theme = savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : 'dark';
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#071018' : '#f4f8fb');
+      })();
+    </script>
+
+    <title>Atharva Dhoble | Data Engineer & Data Analyst</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <noscript>
+        <p>This portfolio needs JavaScript enabled to display its interactive sections.</p>
+      </noscript>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
